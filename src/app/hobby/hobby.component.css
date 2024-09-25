@@ -1,0 +1,14 @@
+.hobby {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+
+.hobby-con {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    color: #333;
+}

@@ -1,5 +1,5 @@
 {
-    "about":"Self introduction of myself, let me say something",
+    "about":"I am an experienced web programmer with over 10 years of expertise in both front-end and back-end development. My skills include web programming like JavaScript, React, and Aurelia, alongside backend programming in ASP.NET, C#, and MS SQL. I have hands-on experience with AngularJS, Crystal Report, CI/CD processes, and cloud development. I possess strong communication skills, making it easy to work with clients and teammates, while my problem-solving abilities help me tackle complex technical challenges quickly and efficiently. I'm dedicated to delivering high-quality and reliable web solutions.",
     "info":{
         "name":"Chow Kim Wan, Brian",
         "Gender":"Male",
@@ -76,16 +76,23 @@
         }
     ],
     "skills":[
-        {"name":"HTML5", "level":5},
-        {"name":"JQuery", "level":5},
+        {"name":"Javascript", "level":5},
         {"name":"CSS", "level":5},
         {"name":"Typescript", "level":5},
         {"name":"React", "level":5},
         {"name":"Aurelia", "level":5},
-        {"name":"Phaser.js", "level":5},
-        {"name":"PHP", "level":5},
+        {"name":"Phaser.js", "level":4},
+        {"name":"Angular Js", "level":3},
+        {"name":"PHP", "level":4},
         {"name":"C#", "level":5},
-        {"name":"ASP .Net", "level":5}
+        {"name":"ASP .Net", "level":5},
+        {"name":"C++", "level":3},
+        {"name":"Python", "level":3},
+        {"name":"SQL Server", "level":4},
+        {"name":"MySQL", "level":4},
+        {"name":"Azure Cloud", "level":3},
+        {"name":"Docker", "level":4},
+        {"name":"React Native", "level":4}
     ],
     "hobby":[
         {"name":"Music","icon":"music.jpg"},

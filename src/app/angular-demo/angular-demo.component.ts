@@ -8,5 +8,5 @@ import { Component } from '@angular/core';
   styleUrl: './angular-demo.component.css'
 })
 export class AngularDemoComponent {
-  title = 'this is my new angular app';
+  title = 'this is my angular app';
 }
