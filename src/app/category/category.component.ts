@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
 import { IconImg } from '../icon';
 import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-category',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './category.component.html',
   styleUrl: './category.component.css'
 })
@@ -13,6 +14,7 @@ export class CategoryComponent {
   @Input() icon: string = ""
   @Input() name: string = ""
   iconImg: SafeHtml | undefined
+  isShowContent: boolean = true;
 
   constructor(
     private sanitizer: DomSanitizer
@@ -37,5 +39,9 @@ export class CategoryComponent {
     if(this.icon == "camera") {
       this.iconImg = this.sanitizer.bypassSecurityTrustHtml(IconImg.Camera("darkcyan", 40))
     }
+  }
+
+  onClick() {
+    this.isShowContent = !this.isShowContent;
   }
 }

@@ -1,8 +1,8 @@
 <div class="category">
-    <div class="car-bar">
+    <div class="car-bar" (click)="onClick()">
         <div class="cat-icon" [innerHTML]="iconImg"></div>
         <div class="cat-name">{{name}}</div>
         <div class="cat-divider"></div>
     </div>
-    <ng-content class="cat-content"></ng-content>
+    <ng-content class="cat-content" *ngIf="isShowContent"></ng-content>
 </div>
