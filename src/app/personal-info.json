@@ -9,12 +9,64 @@
     },
     "exp":[
         {
-            "desLeft":["IBM","2008 - 2011"],
-            "desRight":["Data Center Operator","Perform data backup"]
+            "desLeft":["IBM","03/2008 - 07/2011"],
+            "desRight":[
+                "Data Center Operator",
+                "- Perform daily operation with different scheduled tasks, batch jobs and monitoring.",
+                "- Handle ad hoc tasks from users.",
+                "- Solve any unexpected problem and report to the supervisor."
+            ]
         },
         {
-            "desLeft":["iCreate holdings limited","2011 - 2013"],
-            "desRight":["Junior programmer","Perform some programming"]
+            "desLeft":["iCreate holdings limited","08/2011 - 01/2013"],
+            "desRight":[
+                "Junior Programmer",
+                "- Develop web game UI using Flash.",
+                "- Develop game controller UI and scanner input using Direct X.",
+                "- Support for testing and debugging."
+            ]
+        },
+        {
+            "desLeft":["iCreate holdings limited","01/2013 - 02/2016"],
+            "desRight":[
+                "Software Developer",
+                "- Main project: Multiplayer online game with live video, backend server, database, monitoring and reporting system.",
+                "- Develop web game UI using HTML5, Aurelia and Phaser.js.",
+                "- Develop a reporting website using PHP and JQuery.",
+                "- Maintain and update backend server using C++ and C#.",
+                "- Maintain and update backend databases using SQL Server and My Sql.",
+                "- Perform testing and troubleshooting."
+            ]
+        },
+        {
+            "desLeft":["miniwork Limited","02/2016 - 11/2021"],
+            "desRight":[
+                "Senior Software Developer",
+                "- Main project: Trading website allow user to register as member, deposit money and perform goods trading.",
+                "- Develop trading website using React.",
+                "- Develop mobile app using react native.",
+                "- Develop news feed using socket.io.",
+                "- Develop trading backend with CMS using ASP .Net Core, redis and MT4",
+                "- Develop trading website database using SQL Server.",
+                "- Develop CI/CD automation using Git, Jenkins, Docker and Azure cloud.",
+                "- Deployment of project to production server and follow up maintenance.",
+                "- Perform testing and troubleshooting.",
+                "- Assistance and provide training for junior programmer."
+            ]
+        },
+        {
+            "desLeft":["miniwork Limited","11/2021 - 12/2023"],
+            "desRight":[
+                "Senior System Analyst",
+                "- Main project: Multiplayer online game with backend server, database, monitoring and reporting system.",
+                "- Develop web game UI using HTML5, Aurelia.",
+                "- Develop interactive plots using tradingview.",
+                "- Develop CI/CD automation using Git, Jenkins, Docker and Azure cloud.",
+                "- Deployment of project to production server and follow up maintenance.",
+                "- Perform system design and documentation.",
+                "- Perform testing and troubleshooting.",
+                "- Assistance and provide training for junior programmer."
+            ]
         }
     ],
     "edu":[
@@ -24,16 +76,16 @@
         }
     ],
     "skills":[
-        {"HTML5":5},
-        {"JQuery":5},
-        {"CSS":5},
-        {"Typescript":5},
-        {"React":5},
-        {"Aurelia":5},
-        {"Phaser.js":5},
-        {"PHP":5},
-        {"C#":5},
-        {"ASP .Net":5}
+        {"name":"HTML5", "level":5},
+        {"name":"JQuery", "level":5},
+        {"name":"CSS", "level":5},
+        {"name":"Typescript", "level":5},
+        {"name":"React", "level":5},
+        {"name":"Aurelia", "level":5},
+        {"name":"Phaser.js", "level":5},
+        {"name":"PHP", "level":5},
+        {"name":"C#", "level":5},
+        {"name":"ASP .Net", "level":5}
     ],
     "hobby":[
         {"name":"Music","icon":"music.jpg"},

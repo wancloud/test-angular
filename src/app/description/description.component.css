@@ -1,0 +1,48 @@
+.description {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.des-con {
+    display: flex;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.divider {
+    width: 2px;
+    background: var(--red-to-pink-to-purple-vertical-gradient);
+    margin-inline: 0.5rem;
+}
+
+.spot {
+    width: 20px;
+    height: auto;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+.des-left {
+    width: 30%;
+    max-width: 30%;
+    min-width: 30%;
+}
+.des-right {
+    flex-grow: 100;
+}
+
+.des-left>div:first-child,
+.des-right>div:first-child {
+    font-weight: bold;
+    font-size: 120%;
+}
+@media screen and (max-width: 650px) {
+    .des-right,.des-left {
+        font-size: 80%;
+    }
+    .spot {
+        padding-top: 0;
+    }
+}

@@ -1,5 +1,17 @@
 <div class="description">
-    <div *ngFor="let desItem of desModel">
+    <div *ngFor="let desItem of desModel" class="des-con">
+        <div class="spot">
+            <svg width="20" height="20" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <radialGradient id="aquaBlueGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                    <stop offset="0%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
+                    <stop offset="100%" style="stop-color:rgb(0,128,255);stop-opacity:0.7" />
+                    </radialGradient>
+                </defs>
+
+                <circle cx="100" cy="100" r="80" fill="url(#aquaBlueGradient)" />
+            </svg>
+        </div>
         <div class="des-left">
             <div *ngFor="let des of desItem.desLeft">{{des}}</div>
         </div>

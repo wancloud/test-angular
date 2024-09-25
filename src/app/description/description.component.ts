@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { DescModel } from '../desc-model';
+import { DescModel } from '../../model/desc-model';
 import { CommonModule } from '@angular/common';
 
 @Component({

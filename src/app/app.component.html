@@ -15,15 +15,15 @@
       <div>{{aboutMe}}</div>
     </app-category>
     <app-category [icon]="'briefcase'" [name]="'EXPERIENCE'">
-      <app-description [desModel]="descExp"></app-description>
+      <app-description [desModel]="descExp" class="cat-content"></app-description>
     </app-category>
     <app-category [icon]="'cap'" [name]="'EDUCATION'">
-      <app-description [desModel]="descEdu"></app-description>
+      <app-description [desModel]="descEdu" class="cat-content"></app-description>
     </app-category>
     <app-category [icon]="'skills'" [name]="'PRO SKILLS'">
-
+      <app-skill [skills]="skills"></app-skill>
     </app-category>
-    <app-category [icon]="'camera'" [name]="'HOOBBIES'">
+    <app-category [icon]="'camera'" [name]="'HOBBIES'">
 
     </app-category>
     <app-category [icon]="'phone'" [name]="'CONTACT ME'">
