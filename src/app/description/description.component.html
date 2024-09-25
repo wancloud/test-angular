@@ -1,0 +1,11 @@
+<div class="description">
+    <div *ngFor="let desItem of desModel">
+        <div class="des-left">
+            <div *ngFor="let des of desItem.desLeft">{{des}}</div>
+        </div>
+        <div class="divider"></div>
+        <div class="des-right">
+            <div *ngFor="let des of desItem.desRight">{{des}}</div>
+        </div>
+    </div>
+</div>

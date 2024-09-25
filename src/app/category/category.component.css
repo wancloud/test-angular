@@ -1,0 +1,33 @@
+.category {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0.8em 0;
+}
+
+.cat-icon {
+    margin-right: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cat-name {
+    margin-right: 1em;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.cat-divider {
+    width: auto;
+    margin-top: 3px;
+    height: 3px;
+    background-color: darkcyan;
+    flex-grow: 100;
+    border-radius: 50px;
+}
+
+.cat-content {
+    display: flex;
+    width: 100%;
+}

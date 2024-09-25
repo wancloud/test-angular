@@ -1,0 +1,44 @@
+{
+    "about":"Self introduction of myself, let me say something",
+    "info":{
+        "name":"Chow Kim Wan, Brian",
+        "Gender":"Male",
+        "Email address":"wancloud@hotmail.com",
+        "Age":"39",
+        "phone":"xxxx-xxxx"
+    },
+    "exp":[
+        {
+            "desLeft":["IBM","2008 - 2011"],
+            "desRight":["Data Center Operator","Perform data backup"]
+        },
+        {
+            "desLeft":["iCreate holdings limited","2011 - 2013"],
+            "desRight":["Junior programmer","Perform some programming"]
+        }
+    ],
+    "edu":[
+        {
+            "desLeft":["The Chinese University of Hong Kong","2004 - 2007"],
+            "desRight":["Bachelor of Science","Major: Physics","Minor: Computer Science"]
+        }
+    ],
+    "skills":[
+        {"HTML5":5},
+        {"JQuery":5},
+        {"CSS":5},
+        {"Typescript":5},
+        {"React":5},
+        {"Aurelia":5},
+        {"Phaser.js":5},
+        {"PHP":5},
+        {"C#":5},
+        {"ASP .Net":5}
+    ],
+    "hobby":[
+        {"name":"Music","icon":"music.jpg"},
+        {"name":"Travel","icon":"travel.jpg"},
+        {"name":"Movie","icon":"movie.jpg"},
+        {"name":"Hiking","icon":"hiking.jpg"}
+    ]
+}
