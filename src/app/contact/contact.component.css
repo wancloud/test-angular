@@ -1,21 +1,19 @@
-.hobby {
+.contact {
     display: flex;
     width: 100%;
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 0 15px;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-.hobby-con {
+.contact-con {
+    width: 250px;
     display: flex;
     flex-direction: column;
-    color: #333;
-    align-items: center;
     color: darkcyan;
 }
 
-.hobby-icon {
-    width: 40px;
-    height: 40px;
+.contact-name {
+    font-weight: bold;
 }

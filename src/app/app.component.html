@@ -24,12 +24,13 @@
       <app-skill [skills]="skills" class="cat-content"></app-skill>
     </app-category>
     <app-category [icon]="'camera'" [name]="'HOBBIES'">
-
+      <app-hobby class="cat-content"></app-hobby>
     </app-category>
     <app-category [icon]="'phone'" [name]="'CONTACT ME'">
-
+      <app-contact class="cat-content"></app-contact>
     </app-category>
-    <app-angular-demo class="content"></app-angular-demo>
+    <button class="button" (click)="onClick($event)">Display angular demo</button>
+    <app-angular-demo class="content" *ngIf="displayDemo"></app-angular-demo>
   </div>
 </main>
 
