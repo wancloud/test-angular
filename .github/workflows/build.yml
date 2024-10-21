@@ -35,6 +35,6 @@ jobs:
       run: npm run build --if-present
     - name: Deploy to github pages
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: npm run ng deploy --repo=https://github.com/wancloud/test-angular.git --name="wancloud" --base-href=/test-angular/
 
