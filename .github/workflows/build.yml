@@ -33,11 +33,9 @@ jobs:
       run: npm ci
     - name: Run build
       run: npm run build
-    - name: Config git
-      run: git config --global user.email "wancloud@hotmail.com.com" && git config --global user.name "wancloud"
     - name: Deploy to github pages
       env:
         CI: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npx angular-cli-ghpages --dir=dist/test-angular/browser --no-silent --name wancloud --base-href=/test-angular/
+      run: npx angular-cli-ghpages --dir=dist/test-angular/browser --no-silent
 
