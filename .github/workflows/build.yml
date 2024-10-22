@@ -39,5 +39,5 @@ jobs:
       env:
         CI: true
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: npx angular-cli-ghpages --dir=dist/test-angular/browser --no-silent --name wancloud
+      run: npx angular-cli-ghpages --dir=dist/test-angular/browser --no-silent --name wancloud --base-href=/test-angular/
 
