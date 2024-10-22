@@ -33,6 +33,8 @@ jobs:
       run: npm ci
     - name: Run build
       run: npm run build
+    - name: Config git
+      run: git config --global user.email "wancloud@hotmail.com.com" && git config --global user.name "wancloud"
     - name: Deploy to github pages
       env:
         CI: true
